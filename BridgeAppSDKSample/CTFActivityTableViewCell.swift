@@ -10,15 +10,31 @@ import UIKit
 
 class CTFActivityTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var uncheckedView: UIView!
+    @IBOutlet weak var checkmarkImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel?
+    
+    var complete: Bool = false {
+        didSet {
+            self.uncheckedView.hidden = complete
+            self.checkmarkImageView.hidden = !complete
+        }
     }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        self.uncheckedView.layer.borderColor = UIColor.lightGrayColor().CGColor
+        self.uncheckedView.layer.borderWidth = 1
+        self.uncheckedView.layer.cornerRadius = self.uncheckedView.bounds.size.height / 2
+        
+        self.timeLabel?.textColor = self.tintColor
     }
-
+    
+    override func tintColorDidChange() {
+        super.tintColorDidChange()
+        self.timeLabel?.textColor = self.tintColor
+    }
 }

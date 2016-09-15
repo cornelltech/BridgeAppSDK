@@ -1,0 +1,18 @@
+{
+    "taskIdentifier"    : "Baseline",
+    "identifier"        : "Baseline",
+    "steps"         :
+    [
+     {
+     "identifier"   : "introduction",
+     "type"         : "instruction",
+     "title"        : "Activity Session",
+     "text"         : "A session includes four activities. It may take 5 minutes to complete.",
+     },
+     {
+     "identifier"   :   "PAM",
+     "resourceName"            : "PAM",
+     "classType"               : "BridgeAppSDKSample.CTFPAMTask",
+     },
+     ]
+}

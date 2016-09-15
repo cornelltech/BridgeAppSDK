@@ -9,5 +9,5 @@
 import UIKit
 
 class CTFActivity: NSObject {
-
+    var label: String?
 }

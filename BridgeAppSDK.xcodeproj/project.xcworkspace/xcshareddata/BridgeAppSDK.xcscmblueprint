@@ -6,6 +6,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "CEE2E2DA3B415DB70C257504A5BA6B611A730B63" : 0,
     "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : 0,
+    "6981085B1637C0C4B7CD7C504482C3BB78E0396F" : 0,
     "82DF43EF5CA016D15C41E0AF1AF686E9973475B7" : 0,
     "0B6D8AAAD0FF4C01212E6AB2D110619FA685281D" : 0,
     "B8291B2279B07F973FECD69C5EEE3C81B0A98D83" : 0,
@@ -16,6 +17,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "CEE2E2DA3B415DB70C257504A5BA6B611A730B63" : "BridgeAppSDK\/BridgeSDK\/",
     "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : "BridgeAppSDK\/ResearchKit\/",
+    "6981085B1637C0C4B7CD7C504482C3BB78E0396F" : "BridgeAppSDK\/sdl-rkx\/",
     "82DF43EF5CA016D15C41E0AF1AF686E9973475B7" : "BridgeAppSDK\/ZipZap\/",
     "0B6D8AAAD0FF4C01212E6AB2D110619FA685281D" : "BridgeAppSDK\/CMSSupport\/",
     "B8291B2279B07F973FECD69C5EEE3C81B0A98D83" : "",
@@ -30,6 +32,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sage-Bionetworks\/CMSSupport.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B6D8AAAD0FF4C01212E6AB2D110619FA685281D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cornelltech\/sdl-rkx.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6981085B1637C0C4B7CD7C504482C3BB78E0396F"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pixelglow\/ZipZap.git",
