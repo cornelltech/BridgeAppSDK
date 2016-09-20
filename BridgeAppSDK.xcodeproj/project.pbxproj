@@ -45,7 +45,6 @@
 		E2F824761D908972007BCD00 /* CTFPulsusFormStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F824701D908972007BCD00 /* CTFPulsusFormStepViewController.xib */; };
 		E2F824781D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F824771D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift */; };
 		E2F8247A1D90A22D007BCD00 /* self_assessment_5.json in Resources */ = {isa = PBXBuildFile; fileRef = E2F824791D90A22D007BCD00 /* self_assessment_5.json */; };
-		E2F8247C1D90A50C007BCD00 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = E2F8247B1D90A50C007BCD00 /* empty.json */; };
 		FB0C9EF31CAA52F700BA5B44 /* NSDate+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C9EF21CAA52F700BA5B44 /* NSDate+Utilities.swift */; };
 		FB14FFDE1C766DF100E0D5AF /* SBAConsentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB14FFDD1C766DF100E0D5AF /* SBAConsentSection.swift */; };
 		FB14FFE41C76852500E0D5AF /* SBABridgeAppSDKDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14FFE31C76852500E0D5AF /* SBABridgeAppSDKDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -453,7 +452,6 @@
 		E2F824701D908972007BCD00 /* CTFPulsusFormStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CTFPulsusFormStepViewController.xib; path = extensions/CTFPulsusFormStepViewController.xib; sourceTree = "<group>"; };
 		E2F824771D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFPulsusFormBridgeTask.swift; sourceTree = "<group>"; };
 		E2F824791D90A22D007BCD00 /* self_assessment_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_5.json; sourceTree = "<group>"; };
-		E2F8247B1D90A50C007BCD00 /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
 		FB0C9EF21CAA52F700BA5B44 /* NSDate+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Utilities.swift"; sourceTree = "<group>"; };
 		FB14FFDD1C766DF100E0D5AF /* SBAConsentSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBAConsentSection.swift; sourceTree = "<group>"; };
 		FB14FFE31C76852500E0D5AF /* SBABridgeAppSDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBABridgeAppSDKDelegate.h; sourceTree = "<group>"; };
@@ -1368,7 +1366,6 @@
 				E2E9365C1D8B2DED0043BB39 /* tasks_and_schedules.json */,
 				E2E936721D8B4B830043BB39 /* PAM.json */,
 				FFDECDF91D0774EE00434001 /* Onboarding.json */,
-				E2F8247B1D90A50C007BCD00 /* empty.json */,
 				FF78CF881D00F3DB002C456D /* EligibilityRequirements.json */,
 				FF3E30C31D62CF7100347165 /* CombinedTask.json */,
 				FF78CF4E1D00B6C9002C456D /* Consent.json */,
@@ -1762,7 +1759,6 @@
 				FF78CF281D00B655002C456D /* consent_10study_task.html in Resources */,
 				FF78CF671D00C135002C456D /* Walking.json in Resources */,
 				FF78CF101D00B617002C456D /* consent_2quiz_headsup.html in Resources */,
-				E2F8247C1D90A50C007BCD00 /* empty.json in Resources */,
 				E2F824731D908972007BCD00 /* CTFFormItemCell.xib in Resources */,
 				FF78CF191D00B630002C456D /* consent_5dataprocessing.html in Resources */,
 				E2F824761D908972007BCD00 /* CTFPulsusFormStepViewController.xib in Resources */,
