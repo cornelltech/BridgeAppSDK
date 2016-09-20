@@ -137,6 +137,14 @@
 			<key>resourceName</key>
 			<string>Baseline</string>
 		</dict>
+		<dict>
+			<key>taskIdentifier</key>
+			<string>Pulsus</string>
+			<key>classType</key>
+			<string>BridgeAppSDKSample.CTFPulsusFormBridgeTask</string>
+			<key>resourceName</key>
+			<string>self_assessment_5</string>
+		</dict>
 	</array>
 </dict>
 </plist>

@@ -13,8 +13,6 @@
      "identifier"       : "Pulsus",
      "resourceName"            : "self_assessment_5",
      "classType"               : "BridgeAppSDKSample.CTFPulsusFormBridgeTask",
-     "taskIdentifier" : "self_assessment_baseline_5",
-     "schemaIdentifier": "sdffsd",
      },
      {
        "identifier"   :   "PAM",

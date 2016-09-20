@@ -39,11 +39,14 @@ class CTFPulsusFormStepTransformer: NSObject, SBAStepTransformer {
     }
 }
 
-class CTFPulsusFormBridgeTask: NSObject, SBABridgeTask {
+class CTFPulsusFormBridgeTask: NSObject, SBABridgeTask, SBAStepTransformer {
     
     var _taskIdentifier: String!
     var _schemaIdentifier: String?
     var stepTransformer: SBAStepTransformer?
+    
+    var formItems: [ORKFormItem]?
+    var stepTitle: String?
     
     static func formItemFromDictionary(dictionary: AnyObject?) -> ORKFormItem? {
         
@@ -75,10 +78,12 @@ class CTFPulsusFormBridgeTask: NSObject, SBABridgeTask {
                 return
         }
         
-        let formItems = dictionaryItems.flatMap(CTFPulsusFormBridgeTask.formItemFromDictionary)
-        self.stepTransformer = CTFPulsusFormStepTransformer(identifier: self._taskIdentifier,
-                                                            title: dictionaryRepresentation["title"] as? String,
-                                                            formItems: formItems)
+        self.formItems = dictionaryItems.flatMap(CTFPulsusFormBridgeTask.formItemFromDictionary)
+        self.stepTitle = dictionaryRepresentation["title"] as? String
+//        
+//        self.stepTransformer = CTFPulsusFormStepTransformer(identifier: self._taskIdentifier,
+//                                                            title: dictionaryRepresentation["title"] as? String,
+//                                                            formItems: formItems)
         
     }
     
@@ -96,11 +101,20 @@ class CTFPulsusFormBridgeTask: NSObject, SBABridgeTask {
     }
     
     var taskSteps: [SBAStepTransformer] {
-        return (self.stepTransformer != nil) ? [self.stepTransformer!] : []
+        return [self]
     }
     
     var insertSteps: [SBAStepTransformer]? {
         return nil
+    }
+    
+    func transformToStep(factory: SBASurveyFactory, isLastStep: Bool) -> ORKStep? {
+        let formStep = CTFPulsusFormStep(identifier: self.taskIdentifier)
+        formStep.title = self.stepTitle
+        formStep.optional = false
+        formStep.formItems = self.formItems
+        
+        return formStep
     }
     
     

@@ -206,6 +206,7 @@ class CTFScheduledActivityManager: NSObject, SBASharedInfoController, ORKTaskVie
 //        var dataStores:[SBATrackedDataStore] = []
         
         if let task = taskViewController.task as? SBANavigableOrderedTask {
+            print(task)
             for step in task.steps {
                 print(step)
                 
