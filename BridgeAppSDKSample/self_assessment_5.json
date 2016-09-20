@@ -1,0 +1,85 @@
+{
+    "taskIdentifier": "self_assessment_baseline_5",
+    "schemaIdentifier": "sdffsd",
+    "title": "For the following questions, please think about your experiences over the past year.",
+    "items" : [
+               {
+               "identifier"        : "QOL_bl",
+               "text"              : "I am satisfied with the quality of my life as it stands now.",
+               "type"              : "pulsusScale",
+               "range"             : {
+                   "min"     : 0,
+                   "max"      : 10,
+                   "default"   : 5,
+                   "step": 1,
+                   "minValueText": "not at all",
+                   "maxValueText": "extremely"
+                 }
+               },
+               {
+               "identifier"        : "Conf_bl",
+               "text"              : "I am confident I can meet the life goals I set for myself.",
+               "type"              : "pulsusScale",
+               "range"             : {
+                   "min"     : 0,
+                   "max"      : 10,
+                   "default"   : 5,
+                   "step": 1,
+                   "minValueText": "not at all",
+                   "maxValueText": "extremely"
+                 }
+               },
+               {
+               "identifier"        : "Sensation_bl",
+               "text"              : "I like to engage in experiences that give me an adrenalin rush (e.g. bungee jumping).",
+               "type"              : "pulsusScale",
+               "range"             : {
+                   "min"     : 0,
+                   "max"      : 10,
+                   "default"   : 5,
+                   "step": 1,
+                   "minValueText": "not at all",
+                   "maxValueText": "extremely"
+                 }
+               },
+               {
+               "identifier"        : "Urgexp_bl",
+               "text"              : "I do things without thinking about it too much before I do it.",
+               "type"              : "pulsusScale",
+               "range"             : {
+                   "min"     : 0,
+                   "max"      : 10,
+                   "default"   : 5,
+                   "step": 1,
+                   "minValueText": "not at all",
+                   "maxValueText": "extremely"
+                 }
+               },
+               {
+               "identifier"        : "Urgspeech_bl",
+               "text"              : "I say things without thinking and end up regretting saying it later.",
+               "type"              : "pulsusScale",
+               "range"             : {
+                   "min"     : 0,
+                   "max"      : 10,
+                   "default"   : 5,
+                   "step": 1,
+                   "minValueText": "not at all",
+                   "maxValueText": "extremely"
+                 }
+               },
+               {
+               "identifier"        : "Negurg_bl",
+               "text"              : "When I am feeling down or frustrated, I do things I end up regretting later.",
+               "type"              : "pulsusScale",
+               "range"             : {
+                   "min"     : 0,
+                   "max"      : 10,
+                   "default"   : 5,
+                   "step": 1,
+                   "minValueText": "not at all",
+                   "maxValueText": "extremely"
+                 }
+               }
+              ]
+}

@@ -375,6 +375,10 @@ extension sbb_NumberRange {
         guard (self.unit != "") else { return nil }
         return self.unit
     }
+    
+    public var defaultNumber: NSNumber? {
+        return 0
+    }
 }
 
 

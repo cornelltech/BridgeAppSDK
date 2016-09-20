@@ -78,6 +78,7 @@ public protocol SBANumberRange: class {
     var maxNumber: NSNumber? { get }
     var unitLabel: String? { get }
     var stepInterval: Int { get }
+    var defaultNumber: NSNumber? { get }
 }
 
 extension ORKPasscodeType {

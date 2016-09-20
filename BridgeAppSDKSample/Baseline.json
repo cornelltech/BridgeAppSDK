@@ -10,9 +10,16 @@
      "text"         : "A session includes four activities. It may take 5 minutes to complete.",
      },
      {
-     "identifier"   :   "PAM",
-     "resourceName"            : "PAM",
-     "classType"               : "BridgeAppSDKSample.CTFPAMTask",
+     "identifier"       : "Pulsus",
+     "resourceName"            : "self_assessment_5",
+     "classType"               : "BridgeAppSDKSample.CTFPulsusFormBridgeTask",
+     "taskIdentifier" : "self_assessment_baseline_5",
+     "schemaIdentifier": "sdffsd",
      },
-     ]
+     {
+       "identifier"   :   "PAM",
+       "resourceName"            : "PAM",
+       "classType"               : "BridgeAppSDKSample.CTFPAMTask",
+     },
+   ]
 }

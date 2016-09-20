@@ -131,7 +131,7 @@ extension NSDictionary: SBAFormStepSurveyItem {
     }
     
     public var range: AnyObject? {
-        return nil 
+        return self["range"]
     }
     
     public var skipIdentifier: String? {
@@ -185,5 +185,9 @@ extension NSDictionary: SBANumberRange {
 
     public var stepInterval: Int {
         return self["stepInterval"] as? Int ?? 1
+    }
+    
+    public var defaultNumber: NSNumber? {
+        return self["default"] as? NSNumber
     }
 }

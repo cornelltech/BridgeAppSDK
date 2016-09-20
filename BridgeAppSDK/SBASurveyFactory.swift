@@ -317,6 +317,8 @@ extension SBAFormStepSurveyItem {
         case .duration:
             return ORKTimeIntervalAnswerFormat()
         case .integer, .decimal, .scale:
+            print(self)
+            print(self.range)
             guard let range = self.range as? SBANumberRange else {
                 assertionFailure("\(subtype) requires a valid number range")
                 return nil
@@ -374,7 +376,7 @@ extension SBANumberRange {
                 return ORKContinuousScaleAnswerFormat(maximumValue: Double(max), minimumValue: Double(min), defaultValue: 0.0, maximumFractionDigits: 0)
             }
             else {
-                return ORKScaleAnswerFormat(maximumValue: max, minimumValue: min, defaultValue: 0, step: self.stepInterval)
+                return ORKScaleAnswerFormat(maximumValue: max, minimumValue: min, defaultValue: self.defaultNumber as? Int ?? 0, step: self.stepInterval)
             }
         }
         

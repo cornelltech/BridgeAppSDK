@@ -37,6 +37,15 @@
 		E2E9366F1D8B45120043BB39 /* SDLRKX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2E936631D8B35E10043BB39 /* SDLRKX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E2E936731D8B4B830043BB39 /* PAM.json in Resources */ = {isa = PBXBuildFile; fileRef = E2E936721D8B4B830043BB39 /* PAM.json */; };
 		E2E936751D8B639A0043BB39 /* Baseline.json in Resources */ = {isa = PBXBuildFile; fileRef = E2E936741D8B639A0043BB39 /* Baseline.json */; };
+		E2F824711D908972007BCD00 /* CTFBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8246B1D908972007BCD00 /* CTFBorderedButton.swift */; };
+		E2F824721D908972007BCD00 /* CTFFormItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8246C1D908972007BCD00 /* CTFFormItemCell.swift */; };
+		E2F824731D908972007BCD00 /* CTFFormItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F8246D1D908972007BCD00 /* CTFFormItemCell.xib */; };
+		E2F824741D908972007BCD00 /* CTFPulsusFormStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8246E1D908972007BCD00 /* CTFPulsusFormStep.swift */; };
+		E2F824751D908972007BCD00 /* CTFPulsusFormStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8246F1D908972007BCD00 /* CTFPulsusFormStepViewController.swift */; };
+		E2F824761D908972007BCD00 /* CTFPulsusFormStepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F824701D908972007BCD00 /* CTFPulsusFormStepViewController.xib */; };
+		E2F824781D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F824771D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift */; };
+		E2F8247A1D90A22D007BCD00 /* self_assessment_5.json in Resources */ = {isa = PBXBuildFile; fileRef = E2F824791D90A22D007BCD00 /* self_assessment_5.json */; };
+		E2F8247C1D90A50C007BCD00 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = E2F8247B1D90A50C007BCD00 /* empty.json */; };
 		FB0C9EF31CAA52F700BA5B44 /* NSDate+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C9EF21CAA52F700BA5B44 /* NSDate+Utilities.swift */; };
 		FB14FFDE1C766DF100E0D5AF /* SBAConsentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB14FFDD1C766DF100E0D5AF /* SBAConsentSection.swift */; };
 		FB14FFE41C76852500E0D5AF /* SBABridgeAppSDKDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FB14FFE31C76852500E0D5AF /* SBABridgeAppSDKDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -436,6 +445,15 @@
 		E2E9366C1D8B389B0043BB39 /* CTFPAMTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFPAMTask.swift; sourceTree = "<group>"; };
 		E2E936721D8B4B830043BB39 /* PAM.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PAM.json; sourceTree = "<group>"; };
 		E2E936741D8B639A0043BB39 /* Baseline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Baseline.json; sourceTree = "<group>"; };
+		E2F8246B1D908972007BCD00 /* CTFBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTFBorderedButton.swift; path = extensions/CTFBorderedButton.swift; sourceTree = "<group>"; };
+		E2F8246C1D908972007BCD00 /* CTFFormItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTFFormItemCell.swift; path = extensions/CTFFormItemCell.swift; sourceTree = "<group>"; };
+		E2F8246D1D908972007BCD00 /* CTFFormItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CTFFormItemCell.xib; path = extensions/CTFFormItemCell.xib; sourceTree = "<group>"; };
+		E2F8246E1D908972007BCD00 /* CTFPulsusFormStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTFPulsusFormStep.swift; path = extensions/CTFPulsusFormStep.swift; sourceTree = "<group>"; };
+		E2F8246F1D908972007BCD00 /* CTFPulsusFormStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CTFPulsusFormStepViewController.swift; path = extensions/CTFPulsusFormStepViewController.swift; sourceTree = "<group>"; };
+		E2F824701D908972007BCD00 /* CTFPulsusFormStepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CTFPulsusFormStepViewController.xib; path = extensions/CTFPulsusFormStepViewController.xib; sourceTree = "<group>"; };
+		E2F824771D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFPulsusFormBridgeTask.swift; sourceTree = "<group>"; };
+		E2F824791D90A22D007BCD00 /* self_assessment_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_5.json; sourceTree = "<group>"; };
+		E2F8247B1D90A50C007BCD00 /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
 		FB0C9EF21CAA52F700BA5B44 /* NSDate+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Utilities.swift"; sourceTree = "<group>"; };
 		FB14FFDD1C766DF100E0D5AF /* SBAConsentSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBAConsentSection.swift; sourceTree = "<group>"; };
 		FB14FFE31C76852500E0D5AF /* SBABridgeAppSDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBABridgeAppSDKDelegate.h; sourceTree = "<group>"; };
@@ -813,6 +831,7 @@
 				E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */,
 				E2E9366B1D8B37450043BB39 /* SDLRKX */,
 				E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */,
+				E2F824531D908968007BCD00 /* Extensions */,
 				E2E936581D8B12690043BB39 /* CTFScheduledActivity.swift */,
 				E2E9365A1D8B16520043BB39 /* CTFActivity.swift */,
 				E2E936561D8B11680043BB39 /* CTFActivityTableViewCell.swift */,
@@ -888,6 +907,20 @@
 				E2E9366C1D8B389B0043BB39 /* CTFPAMTask.swift */,
 			);
 			name = SDLRKX;
+			sourceTree = "<group>";
+		};
+		E2F824531D908968007BCD00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8246B1D908972007BCD00 /* CTFBorderedButton.swift */,
+				E2F8246C1D908972007BCD00 /* CTFFormItemCell.swift */,
+				E2F8246D1D908972007BCD00 /* CTFFormItemCell.xib */,
+				E2F8246E1D908972007BCD00 /* CTFPulsusFormStep.swift */,
+				E2F824771D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift */,
+				E2F8246F1D908972007BCD00 /* CTFPulsusFormStepViewController.swift */,
+				E2F824701D908972007BCD00 /* CTFPulsusFormStepViewController.xib */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		FB14FFE51C7686CC00E0D5AF /* Resources */ = {
@@ -1335,12 +1368,14 @@
 				E2E9365C1D8B2DED0043BB39 /* tasks_and_schedules.json */,
 				E2E936721D8B4B830043BB39 /* PAM.json */,
 				FFDECDF91D0774EE00434001 /* Onboarding.json */,
+				E2F8247B1D90A50C007BCD00 /* empty.json */,
 				FF78CF881D00F3DB002C456D /* EligibilityRequirements.json */,
 				FF3E30C31D62CF7100347165 /* CombinedTask.json */,
 				FF78CF4E1D00B6C9002C456D /* Consent.json */,
 				FF78CF601D00C125002C456D /* Memory.json */,
 				FF78CF631D00C12A002C456D /* Tapping.json */,
 				E2E936741D8B639A0043BB39 /* Baseline.json */,
+				E2F824791D90A22D007BCD00 /* self_assessment_5.json */,
 				FF78CF661D00C130002C456D /* Voice.json */,
 				FF78CF691D00C135002C456D /* Walking.json */,
 				FF78CF531D00BDAE002C456D /* MedicalSurvey.json */,
@@ -1727,7 +1762,10 @@
 				FF78CF281D00B655002C456D /* consent_10study_task.html in Resources */,
 				FF78CF671D00C135002C456D /* Walking.json in Resources */,
 				FF78CF101D00B617002C456D /* consent_2quiz_headsup.html in Resources */,
+				E2F8247C1D90A50C007BCD00 /* empty.json in Resources */,
+				E2F824731D908972007BCD00 /* CTFFormItemCell.xib in Resources */,
 				FF78CF191D00B630002C456D /* consent_5dataprocessing.html in Resources */,
+				E2F824761D908972007BCD00 /* CTFPulsusFormStepViewController.xib in Resources */,
 				FF78CF341D00B670002C456D /* consent_14withdrawl.html in Resources */,
 				FF78CF4C1D00B6C9002C456D /* Consent.json in Resources */,
 				FFC15FDC1CFE4F0D00C29AF7 /* ColorInfo.plist in Resources */,
@@ -1746,6 +1784,7 @@
 				FF3E30C41D62CF7100347165 /* CombinedTask.json in Resources */,
 				E2E9365D1D8B2DED0043BB39 /* tasks_and_schedules.json in Resources */,
 				FF78CF2B1D00B65C002C456D /* consent_11potential_risk.html in Resources */,
+				E2F8247A1D90A22D007BCD00 /* self_assessment_5.json in Resources */,
 				FF78CF511D00BDAE002C456D /* MedicalSurvey.json in Resources */,
 				FFC15FD61CFE452C00C29AF7 /* Onboarding.storyboard in Resources */,
 				FF78CF221D00B646002C456D /* consent_8time.html in Resources */,
@@ -1793,14 +1832,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2E9366D1D8B389B0043BB39 /* CTFPAMTask.swift in Sources */,
+				E2F824751D908972007BCD00 /* CTFPulsusFormStepViewController.swift in Sources */,
 				E2E936571D8B11680043BB39 /* CTFActivityTableViewCell.swift in Sources */,
+				E2F824721D908972007BCD00 /* CTFFormItemCell.swift in Sources */,
 				E2E936551D8B07470043BB39 /* CTFScheduledActivityManager.swift in Sources */,
 				E2E9363C1D8B06E90043BB39 /* CTFActivityTableViewController.swift in Sources */,
 				80E5A1901C5ADF1300E0DFE9 /* AppDelegate.swift in Sources */,
+				E2F824781D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift in Sources */,
 				FFC15FD81CFE4C7100C29AF7 /* MainTabViewController.swift in Sources */,
+				E2F824711D908972007BCD00 /* CTFBorderedButton.swift in Sources */,
 				E2E936591D8B12690043BB39 /* CTFScheduledActivity.swift in Sources */,
 				E2E9365B1D8B16520043BB39 /* CTFActivity.swift in Sources */,
 				FFDECDC81D07434C00434001 /* StudyOverviewViewController.swift in Sources */,
+				E2F824741D908972007BCD00 /* CTFPulsusFormStep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
