@@ -69,6 +69,7 @@ public extension SBABridgeTask {
         var activeSteps:[ORKStep] = []
         let lastIndex = steps.count - 1
         var subtaskSteps: [ORKStep] = steps.enumerate().mapAndFilter({ (index, item) in
+            print(item)
             let step = item.transformToStep(factory, isLastStep:(lastIndex == index))
             if let activeStep = step as? SBASubtaskStep,
                 let task = activeStep.subtask as? SBATaskExtension,
@@ -82,7 +83,8 @@ public extension SBABridgeTask {
             return step
         })
         guard subtaskSteps.count > 0 else { return nil }
-        
+        print(subtaskSteps)
+        subtaskSteps.forEach { print($0) }
         // Check for progress steps
         if activeSteps.count > 1 {
             let stepTitles = activeSteps.map({ $0.title! })

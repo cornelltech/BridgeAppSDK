@@ -25,6 +25,8 @@
 		80E5A1901C5ADF1300E0DFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E5A18F1C5ADF1300E0DFE9 /* AppDelegate.swift */; };
 		80F554D81CD3F25800C38053 /* SBANotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F554D71CD3F25800C38053 /* SBANotificationsManager.swift */; };
 		E218EA1D1D8899540005B994 /* BridgeInfo-private.plist in Resources */ = {isa = PBXBuildFile; fileRef = E218EA1C1D8899540005B994 /* BridgeInfo-private.plist */; };
+		E26F91121D9AD64C002F3E7C /* self_assessment_9.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F91111D9AD64C002F3E7C /* self_assessment_9.json */; };
+		E26F912B1D9AE3BD002F3E7C /* self_assessment_10.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */; };
 		E2BB77CB1D81684F0080F749 /* cornell-mhealth-eval.pem in Resources */ = {isa = PBXBuildFile; fileRef = E2BB77CA1D81684F0080F749 /* cornell-mhealth-eval.pem */; };
 		E2E9363C1D8B06E90043BB39 /* CTFActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */; };
 		E2E936551D8B07470043BB39 /* CTFScheduledActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */; };
@@ -433,6 +435,8 @@
 		B5D35FC61BEA363F004CBB06 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		B5FA92E81BF13D98001E46C0 /* HealthDataStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataStep.swift; sourceTree = "<group>"; };
 		E218EA1C1D8899540005B994 /* BridgeInfo-private.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BridgeInfo-private.plist"; sourceTree = "<group>"; };
+		E26F91111D9AD64C002F3E7C /* self_assessment_9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_9.json; sourceTree = "<group>"; };
+		E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_10.json; sourceTree = "<group>"; };
 		E2BB77CA1D81684F0080F749 /* cornell-mhealth-eval.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cornell-mhealth-eval.pem"; sourceTree = SOURCE_ROOT; };
 		E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFActivityTableViewController.swift; sourceTree = "<group>"; };
 		E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFScheduledActivityManager.swift; sourceTree = "<group>"; };
@@ -1373,6 +1377,8 @@
 				FF78CF631D00C12A002C456D /* Tapping.json */,
 				E2E936741D8B639A0043BB39 /* Baseline.json */,
 				E2F824791D90A22D007BCD00 /* self_assessment_5.json */,
+				E26F91111D9AD64C002F3E7C /* self_assessment_9.json */,
+				E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */,
 				FF78CF661D00C130002C456D /* Voice.json */,
 				FF78CF691D00C135002C456D /* Walking.json */,
 				FF78CF531D00BDAE002C456D /* MedicalSurvey.json */,
@@ -1761,12 +1767,14 @@
 				FF78CF101D00B617002C456D /* consent_2quiz_headsup.html in Resources */,
 				E2F824731D908972007BCD00 /* CTFFormItemCell.xib in Resources */,
 				FF78CF191D00B630002C456D /* consent_5dataprocessing.html in Resources */,
+				E26F912B1D9AE3BD002F3E7C /* self_assessment_10.json in Resources */,
 				E2F824761D908972007BCD00 /* CTFPulsusFormStepViewController.xib in Resources */,
 				FF78CF341D00B670002C456D /* consent_14withdrawl.html in Resources */,
 				FF78CF4C1D00B6C9002C456D /* Consent.json in Resources */,
 				FFC15FDC1CFE4F0D00C29AF7 /* ColorInfo.plist in Resources */,
 				80E5A18D1C5ADC7600E0DFE9 /* BridgeAppSDKSample.entitlements in Resources */,
 				FF78CF2E1D00B663002C456D /* consent_12medical_care.html in Resources */,
+				E26F91121D9AD64C002F3E7C /* self_assessment_9.json in Resources */,
 				E2E936731D8B4B830043BB39 /* PAM.json in Resources */,
 				FF78CF5E1D00C125002C456D /* Memory.json in Resources */,
 				FF78CF641D00C130002C456D /* Voice.json in Resources */,
