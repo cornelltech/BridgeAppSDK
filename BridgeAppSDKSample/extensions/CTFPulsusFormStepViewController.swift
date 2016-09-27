@@ -164,18 +164,12 @@ class CTFPulsusFormStepViewController: ORKStepViewController, UITableViewDataSou
         cell.layoutMargins = UIEdgeInsetsMake(0, 0, 0, 8)
         
         guard let pulsusCell = cell as? CTFFormItemCell,
-            let formItem = self.formItems?[indexPath.row],
-            let scaleAnswerFormat = formItem.answerFormat as? ORKScaleAnswerFormat else {
+            let formItem = self.formItems?[indexPath.row] else {
                 return cell
         }
         
         print(formItem.text)
-        pulsusCell.formItem = formItem
-        pulsusCell.titleTextView.text = formItem.text
-        pulsusCell.setValue(self.answerDictionary![formItem.identifier]!)
-        
-        pulsusCell.minTextLabel.text = scaleAnswerFormat.minimumValueDescription
-        pulsusCell.maxTextLabel.text = scaleAnswerFormat.maximumValueDescription
+        pulsusCell.configure(formItem, value: self.answerDictionary![formItem.identifier]!)
         
         pulsusCell.delegate = self
         

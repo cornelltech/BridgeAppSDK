@@ -70,8 +70,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="RGx-bS-Zfg"/>
-                            <constraint firstItem="o9u-fu-qBl" firstAttribute="height" secondItem="OlA-eI-mVg" secondAttribute="height" priority="250" id="hTs-aT-YEZ"/>
+                            <constraint firstAttribute="height" constant="60" id="b83-qI-97o"/>
                         </constraints>
                     </stackView>
                 </subviews>
@@ -92,6 +91,7 @@
                 <outlet property="maxTextLabel" destination="9f7-6g-IFi" id="Dha-f1-0n6"/>
                 <outlet property="minTextLabel" destination="tr2-fC-3Wh" id="CZZ-0q-wvM"/>
                 <outlet property="titleTextView" destination="o9u-fu-qBl" id="sFx-4G-PFb"/>
+                <outlet property="topStackViewHeight" destination="b83-qI-97o" id="K2s-Mm-q9x"/>
                 <outlet property="valueLabel" destination="7rW-JB-QWC" id="Pc2-Ol-rya"/>
                 <outlet property="valueSlider" destination="Ew7-mK-m7a" id="ADK-ds-DIC"/>
             </connections>

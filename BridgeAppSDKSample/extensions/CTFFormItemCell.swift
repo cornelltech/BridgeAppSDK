@@ -26,6 +26,7 @@ class CTFFormItemCell: UITableViewCell {
     @IBOutlet weak var valueSlider: UISlider!
     @IBOutlet weak var minTextLabel: UILabel!
     @IBOutlet weak var maxTextLabel: UILabel!
+    @IBOutlet weak var topStackViewHeight: NSLayoutConstraint!
     
     var delegate: CTFFormItemCellDelegate?
     var answer: AnyObject? {
@@ -41,11 +42,33 @@ class CTFFormItemCell: UITableViewCell {
     override func awakeFromNib() {
         self.valueSlider.minimumTrackTintColor = UIColor(red: 0.0021, green: 0.5427, blue: 0.8975, alpha: 1.0)
         self.valueSlider.maximumTrackTintColor = UIColor.grayColor()
-//        self.valueSlider.thumbTintColor = UIColor.whiteColor()
-//        self.contentView.backgroundColor = UIColor.lightGrayColor()
         self.contentView.layoutMargins = UIEdgeInsetsMake(0, 0, 0, 8)
     }
     
+    func configure(formItem: ORKFormItem, value: Int) {
+        
+        self.formItem = formItem
+        self.titleTextView.text = formItem.text
+        
+        let textView = self.titleTextView
+        let label = self.valueLabel
+        
+        let fixedWidth = textView.frame.size.width
+        textView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.max))
+        let newSize = textView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.max))
+        
+        self.topStackViewHeight.constant = max(newSize.height, label.frame.size.height)
+        
+        
+        self.setValue(value)
+        
+        if let scaleAnswerFormat = formItem.answerFormat as? ORKScaleAnswerFormat {
+            self.minTextLabel.text = scaleAnswerFormat.minimumValueDescription
+            self.maxTextLabel.text = scaleAnswerFormat.maximumValueDescription
+        }
+        
+    }
+
     func setValue(value: Int) {
         self.valueSlider.setValue(Float(value), animated: true)
         self.updateValueLabel(value)
