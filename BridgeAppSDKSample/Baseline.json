@@ -16,12 +16,22 @@
      },
      {
      "identifier"       : "Pulsus",
+     "resourceName"            : "self_assessment_6",
+     "classType"               : "BridgeAppSDKSample.CTFPulsusFormBridgeTask",
+     },
+     {
+     "identifier"       : "Pulsus",
      "resourceName"            : "self_assessment_9",
      "classType"               : "BridgeAppSDKSample.CTFPulsusFormBridgeTask",
      },
      {
      "identifier"       : "Pulsus",
      "resourceName"            : "self_assessment_10",
+     "classType"               : "BridgeAppSDKSample.CTFPulsusFormBridgeTask",
+     },
+     {
+     "identifier"       : "Pulsus",
+     "resourceName"            : "self_assessment_11",
      "classType"               : "BridgeAppSDKSample.CTFPulsusFormBridgeTask",
      },
      {

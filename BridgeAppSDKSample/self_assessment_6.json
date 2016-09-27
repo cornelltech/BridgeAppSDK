@@ -1,11 +1,11 @@
 {
-    "taskIdentifier": "self_assessment_baseline_5",
+    "taskIdentifier": "self_assessment_baseline_6",
     "schemaIdentifier": "sdffsd",
     "title": "For the following questions, please think about your experiences over the past year.",
     "items" : [
                {
-               "identifier"        : "QOL_bl",
-               "text"              : "I am satisfied with the quality of my life as it stands now.",
+               "identifier"        : "Taskpers_2_bl",
+               "text"              : "I have difficulty completing tasks that require me to stay focused for long periods.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -17,8 +17,8 @@
                  }
                },
                {
-               "identifier"        : "Conf_bl",
-               "text"              : "I am confident I can meet the life goals I set for myself.",
+               "identifier"        : "socialtemp_bl",
+               "text"              : "I do things I later regret because I get influenced by other people.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -30,8 +30,8 @@
                  }
                },
                {
-               "identifier"        : "Sensation_bl",
-               "text"              : "I like to engage in experiences that give me an adrenalin rush (e.g. bungee jumping).",
+               "identifier"        : "socialcomp_bl",
+               "text"              : "I feel other people have better lives than I do.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -43,8 +43,8 @@
                  }
                },
                {
-               "identifier"        : "Urgexp_bl",
-               "text"              : "I do things without thinking about it too much before I do it.",
+               "identifier"        : "socialblock_bl",
+               "text"              : "I feel blocked in meeting my goals by other people and situations beyond my control.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -56,8 +56,8 @@
                  }
                },
                {
-               "identifier"        : "Urgspeech_bl",
-               "text"              : "I say things without thinking and end up regretting saying it later.",
+               "identifier"        : "bored_bl",
+               "text"              : "I get bored easily.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -69,8 +69,8 @@
                  }
                },
                {
-               "identifier"        : "Negurg_bl",
-               "text"              : "When I am feeling down or frustrated, I do things I end up regretting later.",
+               "identifier"        : "posoutcome_bl",
+               "text"              : "I tend to think things will work out when I jump into new experiences.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -82,8 +82,8 @@
                  }
                },
                {
-               "identifier"        : "Posurg_bl",
-               "text"              : "When I am feeling happy or excited, I do things I end up regretting later.",
+               "identifier"        : "fomo_bl",
+               "text"              : "I feel like I am missing out on fun activities going on around me.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -95,8 +95,8 @@
                  }
                },
                {
-               "identifier"        : "Taskpers_bl",
-               "text"              : "Even if I am tempted by short-term pleasure, I can resist it and stick to my goals.",
+               "identifier"        : "Taskper_3_bl",
+               "text"              : "I continue towards my goals that I set for myself, even when there are obstacles.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -108,8 +108,8 @@
                  }
                },
                {
-               "identifier"        : "Mobileurg_bl",
-               "text"              : "I have difficulty controlling how much I check my mobile phone.",
+               "identifier"        : "leisuretime_bl",
+               "text"              : "I have enough time and money for leisure and hobbies that I enjoy.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -121,8 +121,8 @@
                  }
                },
                {
-               "identifier"        : "Foodurg_bl",
-               "text"              : "I have difficulty controlling how much food I eat.",
+               "identifier"        : "Jealous",
+               "text"              : "I have never been jealous of a friend’s success.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -134,8 +134,8 @@
                  }
                },
                {
-               "identifier"        : "Foodtype_bl",
-               "text"              : "When junk food is offered to me or placed in front of me, it is hard for me to resist eating it, even if I don’t want to eat it.",
+               "identifier"        : "grateful_bl",
+               "text"              : "I am grateful and appreciative about my life and circumstances.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -147,8 +147,8 @@
                  }
                },
                {
-               "identifier"        : "Premed_bl",
-               "text"              : "I plan and think things over before I do them.",
+               "identifier"        : "social_bl",
+               "text"              : "Most of the people I spend time with are a positive influence on my health and well-being.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,
@@ -160,8 +160,8 @@
                  }
                },
                {
-               "identifier"        : "St_temp_bl",
-               "text"              : "I have difficulty controlling my impulses when I am tempted by something that will feel good in the short-term, even if I don’t want to do it.",
+               "identifier"        : "child_bl",
+               "text"              : "As I child, I was a sensation seeker who took risks.",
                "type"              : "pulsusScale",
                "range"             : {
                    "min"     : 0,

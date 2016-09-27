@@ -27,6 +27,8 @@
 		E218EA1D1D8899540005B994 /* BridgeInfo-private.plist in Resources */ = {isa = PBXBuildFile; fileRef = E218EA1C1D8899540005B994 /* BridgeInfo-private.plist */; };
 		E26F91121D9AD64C002F3E7C /* self_assessment_9.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F91111D9AD64C002F3E7C /* self_assessment_9.json */; };
 		E26F912B1D9AE3BD002F3E7C /* self_assessment_10.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */; };
+		E26F912D1D9B0660002F3E7C /* self_assessment_6.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912C1D9B0660002F3E7C /* self_assessment_6.json */; };
+		E26F912F1D9B0667002F3E7C /* self_assessment_11.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912E1D9B0667002F3E7C /* self_assessment_11.json */; };
 		E2BB77CB1D81684F0080F749 /* cornell-mhealth-eval.pem in Resources */ = {isa = PBXBuildFile; fileRef = E2BB77CA1D81684F0080F749 /* cornell-mhealth-eval.pem */; };
 		E2E9363C1D8B06E90043BB39 /* CTFActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */; };
 		E2E936551D8B07470043BB39 /* CTFScheduledActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */; };
@@ -437,6 +439,8 @@
 		E218EA1C1D8899540005B994 /* BridgeInfo-private.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BridgeInfo-private.plist"; sourceTree = "<group>"; };
 		E26F91111D9AD64C002F3E7C /* self_assessment_9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_9.json; sourceTree = "<group>"; };
 		E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_10.json; sourceTree = "<group>"; };
+		E26F912C1D9B0660002F3E7C /* self_assessment_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_6.json; sourceTree = "<group>"; };
+		E26F912E1D9B0667002F3E7C /* self_assessment_11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_11.json; sourceTree = "<group>"; };
 		E2BB77CA1D81684F0080F749 /* cornell-mhealth-eval.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cornell-mhealth-eval.pem"; sourceTree = SOURCE_ROOT; };
 		E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFActivityTableViewController.swift; sourceTree = "<group>"; };
 		E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFScheduledActivityManager.swift; sourceTree = "<group>"; };
@@ -1377,6 +1381,8 @@
 				FF78CF631D00C12A002C456D /* Tapping.json */,
 				E2E936741D8B639A0043BB39 /* Baseline.json */,
 				E2F824791D90A22D007BCD00 /* self_assessment_5.json */,
+				E26F912E1D9B0667002F3E7C /* self_assessment_11.json */,
+				E26F912C1D9B0660002F3E7C /* self_assessment_6.json */,
 				E26F91111D9AD64C002F3E7C /* self_assessment_9.json */,
 				E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */,
 				FF78CF661D00C130002C456D /* Voice.json */,
@@ -1766,6 +1772,7 @@
 				FF78CF671D00C135002C456D /* Walking.json in Resources */,
 				FF78CF101D00B617002C456D /* consent_2quiz_headsup.html in Resources */,
 				E2F824731D908972007BCD00 /* CTFFormItemCell.xib in Resources */,
+				E26F912F1D9B0667002F3E7C /* self_assessment_11.json in Resources */,
 				FF78CF191D00B630002C456D /* consent_5dataprocessing.html in Resources */,
 				E26F912B1D9AE3BD002F3E7C /* self_assessment_10.json in Resources */,
 				E2F824761D908972007BCD00 /* CTFPulsusFormStepViewController.xib in Resources */,
@@ -1800,6 +1807,7 @@
 				E2E936751D8B639A0043BB39 /* Baseline.json in Resources */,
 				FF78CEF61D00B5C4002C456D /* consent_1welcome.html in Resources */,
 				FF78CF3D1D00B680002C456D /* consent_17data_sharing.html in Resources */,
+				E26F912D1D9B0660002F3E7C /* self_assessment_6.json in Resources */,
 				FF78CF1F1D00B63E002C456D /* consent_7datause.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

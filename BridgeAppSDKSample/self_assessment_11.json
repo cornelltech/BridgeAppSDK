@@ -1,10 +1,10 @@
 {
-    "taskIdentifier": "self_assessment_baseline_10",
+    "taskIdentifier": "self_assessment_baseline_11",
     "schemaIdentifier": "sdffse",
     "title": "Overall, which comes closest to how you think, feel and behave between these two opposites.",
     "items" : [
                {
-               "identifier"        : "confusion_bl",
+               "identifier"        : "frustrated_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -12,12 +12,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "clear headed",
-                   "maxValueText": "confused"
+                   "minValueText": "frustrated",
+                   "maxValueText": "content"
                  }
                },
                {
-               "identifier"        : "focus_bl",
+               "identifier"        : "cautious_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -25,12 +25,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "focused",
+                   "minValueText": "cautious",
                    "maxValueText": "distracted"
                  }
                },
                {
-               "identifier"        : "organized_bl",
+               "identifier"        : "sad_sd_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -38,12 +38,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "organized",
-                   "maxValueText": "unorganized"
+                   "minValueText": "sad",
+                   "maxValueText": "happy"
                  }
                },
                {
-               "identifier"        : "intentional_bl",
+               "identifier"        : "lonely_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -51,12 +51,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "impulsive",
-                   "maxValueText": "intentional"
+                   "minValueText": "lonely",
+                   "maxValueText": "connected"
                  }
                },
                {
-               "identifier"        : "bored_bl",
+               "identifier"        : "optimistic_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -64,12 +64,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "bored",
-                   "maxValueText": "engaged"
+                   "minValueText": "optimistic",
+                   "maxValueText": "pessimistic"
                  }
                },
                {
-               "identifier"        : "proud_bl",
+               "identifier"        : "determined_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -77,12 +77,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "proud",
-                   "maxValueText": "ashamed"
+                   "minValueText": "determined",
+                   "maxValueText": "aimless"
                  }
                },
                {
-               "identifier"        : "efficient_bl",
+               "identifier"        : "stressed_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -90,12 +90,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "efficient",
-                   "maxValueText": "inefficient"
+                   "minValueText": "stressed",
+                   "maxValueText": "relaxed"
                  }
                },
                {
-               "identifier"        : "energetic_bl",
+               "identifier"        : "positive_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -103,12 +103,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "energetic",
-                   "maxValueText": "tired"
+                   "minValueText": "positive",
+                   "maxValueText": "negative"
                  }
                },
                {
-               "identifier"        : "calm_bl",
+               "identifier"        : "healthy_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -116,12 +116,12 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "calm",
-                   "maxValueText": "anxious"
+                   "minValueText": "healthy",
+                   "maxValueText": "unhealthy"
                  }
                },
                {
-               "identifier"        : "conservative_bl",
+               "identifier"        : "productive_bl",
                "text"              : "",
                "type"              : "pulsusScale",
                "range"             : {
@@ -129,8 +129,8 @@
                    "max"      : 10,
                    "default"   : 5,
                    "step": 1,
-                   "minValueText": "conservative",
-                   "maxValueText": "progressive"
+                   "minValueText": "productive",
+                   "maxValueText": "unproductive"
                  }
                },
               ]
