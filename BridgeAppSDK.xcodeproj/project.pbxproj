@@ -29,6 +29,8 @@
 		E26F912B1D9AE3BD002F3E7C /* self_assessment_10.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */; };
 		E26F912D1D9B0660002F3E7C /* self_assessment_6.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912C1D9B0660002F3E7C /* self_assessment_6.json */; };
 		E26F912F1D9B0667002F3E7C /* self_assessment_11.json in Resources */ = {isa = PBXBuildFile; fileRef = E26F912E1D9B0667002F3E7C /* self_assessment_11.json */; };
+		E26F91311D9B1B93002F3E7C /* CTFActivityArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F91301D9B1B93002F3E7C /* CTFActivityArchive.swift */; };
+		E26F91331D9B1F72002F3E7C /* CTFActivityResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F91321D9B1F72002F3E7C /* CTFActivityResult.swift */; };
 		E2BB77CB1D81684F0080F749 /* cornell-mhealth-eval.pem in Resources */ = {isa = PBXBuildFile; fileRef = E2BB77CA1D81684F0080F749 /* cornell-mhealth-eval.pem */; };
 		E2E9363C1D8B06E90043BB39 /* CTFActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */; };
 		E2E936551D8B07470043BB39 /* CTFScheduledActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */; };
@@ -441,6 +443,8 @@
 		E26F912A1D9AE3BD002F3E7C /* self_assessment_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_10.json; sourceTree = "<group>"; };
 		E26F912C1D9B0660002F3E7C /* self_assessment_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_6.json; sourceTree = "<group>"; };
 		E26F912E1D9B0667002F3E7C /* self_assessment_11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = self_assessment_11.json; sourceTree = "<group>"; };
+		E26F91301D9B1B93002F3E7C /* CTFActivityArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFActivityArchive.swift; sourceTree = "<group>"; };
+		E26F91321D9B1F72002F3E7C /* CTFActivityResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFActivityResult.swift; sourceTree = "<group>"; };
 		E2BB77CA1D81684F0080F749 /* cornell-mhealth-eval.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "cornell-mhealth-eval.pem"; sourceTree = SOURCE_ROOT; };
 		E2E9363B1D8B06E90043BB39 /* CTFActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFActivityTableViewController.swift; sourceTree = "<group>"; };
 		E2E936541D8B07470043BB39 /* CTFScheduledActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFScheduledActivityManager.swift; sourceTree = "<group>"; };
@@ -840,6 +844,8 @@
 				E2F824531D908968007BCD00 /* Extensions */,
 				E2E936581D8B12690043BB39 /* CTFScheduledActivity.swift */,
 				E2E9365A1D8B16520043BB39 /* CTFActivity.swift */,
+				E26F91301D9B1B93002F3E7C /* CTFActivityArchive.swift */,
+				E26F91321D9B1F72002F3E7C /* CTFActivityResult.swift */,
 				E2E936561D8B11680043BB39 /* CTFActivityTableViewCell.swift */,
 				FFC15FDD1CFE503100C29AF7 /* Resources */,
 				FFC15FD41CFE43BE00C29AF7 /* Storyboards */,
@@ -1853,6 +1859,8 @@
 				E2F824781D909CD8007BCD00 /* CTFPulsusFormBridgeTask.swift in Sources */,
 				FFC15FD81CFE4C7100C29AF7 /* MainTabViewController.swift in Sources */,
 				E2F824711D908972007BCD00 /* CTFBorderedButton.swift in Sources */,
+				E26F91311D9B1B93002F3E7C /* CTFActivityArchive.swift in Sources */,
+				E26F91331D9B1F72002F3E7C /* CTFActivityResult.swift in Sources */,
 				E2E936591D8B12690043BB39 /* CTFScheduledActivity.swift in Sources */,
 				E2E9365B1D8B16520043BB39 /* CTFActivity.swift in Sources */,
 				FFDECDC81D07434C00434001 /* StudyOverviewViewController.swift in Sources */,

@@ -162,8 +162,10 @@ class CTFScheduledActivityManager: NSObject, SBASharedInfoController, ORKTaskVie
         taskViewController.dismissViewControllerAnimated(true) {}
     }
     
+//    func defaultResultsParser()
+    
     // Expose method for building results to allow for testing and subclass override
-    func activityResultsForSchedule(schedule: CTFScheduledActivity, taskViewController: ORKTaskViewController) -> [SBAActivityResult] {
+    func activityResultsForSchedule(schedule: CTFScheduledActivity, taskViewController: ORKTaskViewController) -> [CTFActivityResult] {
         
         // If no results, return empty array
         guard taskViewController.result.results != nil else { return [] }
@@ -184,8 +186,8 @@ class CTFScheduledActivityManager: NSObject, SBASharedInfoController, ORKTaskVie
         }
         
         // Function for creating each split result
-        func createActivityResult(identifier: String, schedule: SBBScheduledActivity, stepResults: [ORKStepResult]) -> SBAActivityResult {
-            let result = SBAActivityResult(taskIdentifier: identifier, taskRunUUID: taskResult.taskRunUUID, outputDirectory: taskResult.outputDirectory)
+        func createActivityResult(identifier: String, schedule: CTFScheduledActivity, stepResults: [ORKStepResult]) -> CTFActivityResult {
+            let result = CTFActivityResult(taskIdentifier: identifier, taskRunUUID: taskResult.taskRunUUID, outputDirectory: taskResult.outputDirectory)
             result.results = stepResults
             result.schedule = schedule
             result.startDate = outputDate(stepResults.first?.startDate, comparison: .OrderedAscending)
@@ -202,7 +204,7 @@ class CTFScheduledActivityManager: NSObject, SBASharedInfoController, ORKTaskVie
             return returnDictionary
         }
         print(resultsForIdentifier)
-        var allResults:[SBAActivityResult] = []
+        var allResults:[CTFActivityResult] = []
 //        var dataStores:[SBATrackedDataStore] = []
         
         if let task = taskViewController.task as? SBANavigableOrderedTask {
@@ -230,10 +232,10 @@ class CTFScheduledActivityManager: NSObject, SBASharedInfoController, ORKTaskVie
                         
                         // Add filtered results to each collection as appropriate
                         let subschedule: CTFScheduledActivity = scheduledActivityForTaskIdentifier(taskId) ?? schedule
-//                        if subResults.count > 0 {
-//                            
-//                            // add dataStore results but only if this is not a data collection itself
-//                            var subsetResults = subResults
+                        if subResults.count > 0 {
+                            
+                            // add dataStore results but only if this is not a data collection itself
+                            var subsetResults = subResults
 //                            if !isDataCollection {
 //                                for dataStore in dataStores {
 //                                    if let momentInDayResult = dataStore.momentInDayResult {
@@ -247,11 +249,11 @@ class CTFScheduledActivityManager: NSObject, SBASharedInfoController, ORKTaskVie
 //                                    }
 //                                }
 //                            }
-//                            
-//                            // create the subresult and add to list
-//                            let substepResult: SBAActivityResult = createActivityResult(schemaId, schedule: subschedule, stepResults: subsetResults)
-//                            allResults.append(substepResult)
-//                        }
+                            
+                            // create the subresult and add to list
+                            let substepResult: CTFActivityResult = createActivityResult(schemaId, schedule: subschedule, stepResults: subsetResults)
+                            allResults.append(substepResult)
+                        }
                     }
 //                    else if isDataCollection {
 //                        

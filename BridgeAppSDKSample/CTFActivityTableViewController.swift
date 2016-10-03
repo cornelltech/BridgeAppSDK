@@ -34,7 +34,7 @@ class CTFActivityTableViewController: SBAActivityTableViewController {
     lazy private var _scheduledActivityManager : CTFScheduledActivityManager = {
         guard let filePath = NSBundle.mainBundle().pathForResource("tasks_and_schedules", ofType: "json")
             else {
-                fatalError("Unable to locate file PAM.json")
+                fatalError("Unable to locate file tasks_and_schedules")
         }
         
         guard let fileContent = NSData(contentsOfFile: filePath)
@@ -46,6 +46,8 @@ class CTFActivityTableViewController: SBAActivityTableViewController {
         
         return CTFScheduledActivityManager(delegate: self, json: tasksAndSchedules)
     }()
+    
+    
     
     override func configureCell(cell: UITableViewCell, tableView: UITableView, indexPath: NSIndexPath) {
         guard let activityCell = cell as? CTFActivityTableViewCell,
